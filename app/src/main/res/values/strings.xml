@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyFinalSubmission2</string>
+    <string name="navigation_upcoming_event">Upcoming</string>
+    <string name="navigation_finished_event">Finished</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dicoding_event">Dicoding Event</string>
+    <string name="recommendation_event_for_you">Recommendation event for you!</string>
+    <string name="event_name">Event Name</string>
+    <string name="description">Description</string>
+    <string name="UpcomingEventFragment">Upcoming Event Fragment</string>
+    <string name="RegisterButton">Register</string>
+</resources>

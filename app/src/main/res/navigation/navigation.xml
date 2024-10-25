@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nav_upcoming_event">
+
+    <fragment
+        android:id="@+id/nav_upcoming_event"
+        android:name="com.dicoding.myfinalsubmission2.upcomingEvent.UpcomingEventFragment"
+        android:label="UpcomingEventFragment"
+        tools:layout="@layout/fragment_upcoming_event" >
+        <action
+            android:id="@+id/action_nav_upcoming_event_to_detailEventFragment2"
+            app:destination="@id/detailEventFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_finished_event"
+        android:name="com.dicoding.myfinalsubmission2.finishedEvent.FinishedEventFragment"
+        android:label="FinishedEventFragment"
+        tools:layout="@layout/fragment_finished_event">
+        <action
+            android:id="@+id/action_nav_finished_event_to_detailEventFragment2"
+            app:destination="@id/detailEventFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailEventFragment2"
+        android:name="com.dicoding.myfinalsubmission2.DetailEvent.DetailEventFragment"
+        android:label="fragment_detail_event"
+        tools:layout="@layout/fragment_detail_event2" />
+
+
+</navigation>
